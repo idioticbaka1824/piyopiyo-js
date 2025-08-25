@@ -917,7 +917,7 @@
         
         console.log("Initializing PiyoPiyo...");
         
-		const drumURL = new URL("https://raadshaikh.github.io/music/piyopiyo-js/piyoDrums.bin");
+		const drumURL = new URL("https://idioticbaka1824.github.io/music/piyopiyo-js/piyoDrums.bin");
         const res_d = await fetch(drumURL); //'_d' for 'drum'. Beyond that, code is unchanged
         const buf_d = await res_d.arrayBuffer();
         const view_d = new DataView(buf_d);
