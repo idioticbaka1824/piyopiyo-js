@@ -236,7 +236,7 @@
 				}
 				else if(document.getElementById('dropDownRadio').checked && !openDialog && !blankFile){
 					var songname = songListEl.options[songListEl.selectedIndex].value;
-					songname = "https://raadshaikh.github.io/music/piyopiyo-js/" + songname
+					songname = "https://idioticbaka1824.github.io/music/piyopiyo-js/" + songname
 					songname = new URL(songname);
                     res = await fetch(songname);
 					prev_song = new_song;
@@ -250,7 +250,7 @@
                     new_song = document.getElementById('idUrlInput').value;
                 }
                 else if(blankFile) {
-					songname = "https://raadshaikh.github.io/music/piyopiyo-js/songs/Blank.pmd"
+					songname = "https://idioticbaka1824.github.io/music/piyopiyo-js/songs/Blank.pmd"
 					songname = new URL(songname);
                     res = await fetch(songname);
 					prev_song = new_song;
