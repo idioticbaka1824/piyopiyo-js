@@ -7,7 +7,7 @@ PiyoPiyo in your browser! A Javascript-based player and editor for PiyoPiyo musi
 
 PiyoPiyo is a chiptune music format created by [Daisuke "Pixel" Amaya](https://twitter.com/oxizn), meant for use in his game [Ikachan](https://www.cavestory.org/pixels-works/ikachan.php).
 
-Demo page: [https://raadshaikh.github.io/piyopiyo-js/piyopiyo-index.html](https://raadshaikh.github.io/piyopiyo-js/piyopiyo-index.html).
+Demo page: [https://idioticbaka1824.github.io/piyopiyo-js/piyopiyo-index.html](https://raadshaikh.github.io/piyopiyo-js/piyopiyo-index.html).
 
 - piyopiyo.js - the main player component, it's all you need for playing .pmd files in browser.
 - piyopiyo-ui.js - optional component that renders a piano roll on HTML5 canvas.
@@ -75,6 +75,6 @@ UI graphics were taken from the original PiyoPiyo Editor executable: https://www
 
 ---
 
-[Let me know](https://raadshaikh.github.io/contact.html) if you liked this, hated it, or want something more in it.
+[Let me know](https://idioticbaka1824.github.io/contact.html) if you liked this, hated it, or want something more in it.
 
 Have fun!
