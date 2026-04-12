@@ -507,7 +507,7 @@
 		editNumbers(newValueInput, fromKeyboard=0) { //this is such a mess ;_;
 			if(this.isEditingNumbers!=-1 && newValueInput!==null && newValueInput!=='') {
 				const minValues = [1, 40, 0, 16, 20, 0, 0];
-				const maxValues = [300, 44100, 5, 4096, 1000, this.song.songLength, this.song.songLength];
+				const maxValues = [300, 88200, 5, 4096, 1000, this.song.songLength, this.song.songLength];
 				let newValue = Math.max(newValueInput, minValues[this.isEditingNumbers]);
 				newValue = clamp(newValueInput, minValues[this.isEditingNumbers], maxValues[this.isEditingNumbers]);
 				switch (this.isEditingNumbers) {
